@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity implements View.OnApplyWindo
             mInputHandler.handleHostSizeChanged(surfaceWidth, surfaceHeight);
             mInputHandler.handleClientSizeChanged(screenWidth, screenHeight);
             if (lorieView.getDisplay() == null || lorieView.getDisplay().getDisplayId() == Display.DEFAULT_DISPLAY)
-                name = "DECON_BOARD_S6D7AT0B_BOE";
+                name = "S6D7AT0B";
             else if (SamsungDexUtils.checkDeXEnabled(this))
                 name = "Dex Display";
             else
