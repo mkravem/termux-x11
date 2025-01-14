@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity implements View.OnApplyWindo
             mInputHandler.handleHostSizeChanged(surfaceWidth, surfaceHeight);
             mInputHandler.handleClientSizeChanged(screenWidth, screenHeight);
             if (lorieView.getDisplay() == null || lorieView.getDisplay().getDisplayId() == Display.DEFAULT_DISPLAY)
-                name = "panel-google-km4.20a8a00a";
+                name = "DM3_S6E3HAE_AMB681AZ01";
             else if (SamsungDexUtils.checkDeXEnabled(this))
                 name = "Dex Display";
             else
