@@ -198,11 +198,11 @@ public class MainActivity extends AppCompatActivity implements View.OnApplyWindo
             mInputHandler.handleHostSizeChanged(surfaceWidth, surfaceHeight);
             mInputHandler.handleClientSizeChanged(screenWidth, screenHeight);
             if (lorieView.getDisplay() == null || lorieView.getDisplay().getDisplayId() == Display.DEFAULT_DISPLAY)
-                name = "virtio-0";
+                name = "virglrenderer-0";
             else if (SamsungDexUtils.checkDeXEnabled(this))
-                name = "virtio-0";
+                name = "virglrenderer-0";
             else
-                name = "virtio-0";
+                name = "virglrenderer-0";
             LorieView.sendWindowChange(screenWidth, screenHeight, framerate, name);
 
             if (service != null && !LorieView.renderingInActivity()) {
