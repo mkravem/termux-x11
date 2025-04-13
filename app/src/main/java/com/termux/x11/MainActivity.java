@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity implements View.OnApplyWindo
             mInputHandler.handleHostSizeChanged(surfaceWidth, surfaceHeight);
             mInputHandler.handleClientSizeChanged(screenWidth, screenHeight);
             if (lorieView.getDisplay() == null || lorieView.getDisplay().getDisplayId() == Display.DEFAULT_DISPLAY)
-                name = "Samsung Electronics Co., Ltd. Samsung DECON MIPI-DSI S6D7AT0B";
+                name = "Google Inc. Google Panel CT3B2B008004";
             else if (SamsungDexUtils.checkDeXEnabled(this))
                 name = "VIRGL-2";
             else
